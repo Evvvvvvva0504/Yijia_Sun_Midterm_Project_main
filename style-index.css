@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+}
+
+/*For the header & title*/
+
+.flex-header {
+    display: flex;
+    background-color: blueviolet;
+    /* width: 100%; */
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    /* how to make the header fixed without other issue (have tried padding-top on grid-main */
+}
+
+.flex-header > div {
+    color: white;
+    padding: 5px;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 560px;
+    gap: 20px 60px;  /*gap: row-gap column-gap*/
+    background-image: url('assets/pet-bkg.png');
+    background-size: cover;
+}
+
+.grid-main > div {
+    padding: 20px;
+    text-wrap: wrap;
+}
+
+.title {
+    grid-row: 1 / 4;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+.main-title {
+    font-size: 4rem;
+}
+
+.sub-titile {
+    font-size: 1.8rem;
+}
+
+.guide-box {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5); /*shadow of the background: horizontal offset, veritical offset, blurriness, shadow color*/
+    border-radius: 20px;
+}
+
+/*For the footer*/
+.flex-footer {
+    display: flex;
+    background-color: blueviolet;
+    height: 420px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-footer > div {
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+    font-size: 2.2rem;
+} 
+
+.credit {
+    display: flex;
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+    height: 30px;
+    background-color: rgb(62, 12, 109);
+    justify-content: center;
+    align-items: center;
+}
