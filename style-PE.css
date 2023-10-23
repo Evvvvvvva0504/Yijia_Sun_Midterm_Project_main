@@ -72,16 +72,16 @@ h1 {
     background-color: blueviolet;
   }
 
-  .horizontal-nav > ul > li {
-    display: inline;
-    padding: 88px; /*and needs this to space-between*/
-  }
+.horizontal-nav > ul > li {
+  display: inline;
+  padding: 88px; /*and needs this to space-between*/
+}
 
-  .horizontal-nav > ul > li a {
-    color: white;
-    padding: 20px 24px 20px 24px; /*padding: top left bottom right*/
-    text-decoration: none;
-  }
+.horizontal-nav > ul > li a {
+  color: white;
+  padding: 20px 24px 20px 24px; /*padding: top left bottom right*/
+  text-decoration: none;
+}
 
 /* For the vertical navgation bar - the classification within a specific pet type */
 .vertical-nav {
@@ -92,7 +92,8 @@ h1 {
   align-content: space-between; 
   font-family: 'Gabarito', sans-serif;
   font-size: 1.8rem;
-  background-color: blueviolet;
+  background-color: #f3c677;
+  box-shadow: 10px 10px 10px rgba(67, 67, 67, 0.5);
 }
 
 .vertical-nav > ul {
@@ -106,16 +107,20 @@ h1 {
 .vertical-nav > ul > li a {
   display: block;
   padding: 8px 16px;
-  color: white;
   text-decoration: none;
 }
 
 li a.active {
-  background-color: rgb(62, 12, 109);
+  background-color: #0c0a3e;
+  color: white;
+}
+
+li a:not(.active) {
+  color: black;
 }
 
 li a:hover:not(.active) {
-  background-color: rgb(216, 174, 255);
+  background-color: #ffe8c1;
   color: black;
 }
 
