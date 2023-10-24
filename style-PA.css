@@ -82,11 +82,16 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-button[type=submit] {
+input[type=image] {
     display: inline-block;
     border: none;
     cursor: pointer;
 }
+
+/*Q6. How to make the search icon align with the text input?
+Prob Descrip:
+I wanna make the search icon (input[type=image]) in the center of the text input area horizontally. Currently it is 
+positioned a bit upwards. */
 
 .filter {
     display: flex;
