@@ -22,6 +22,7 @@ distance seems to be shorter than 15px.
 */
 
 .flex-header > div {
+    display: flex;
     color: white;
     padding: 5px;
     font-family: 'Gabarito', sans-serif;
