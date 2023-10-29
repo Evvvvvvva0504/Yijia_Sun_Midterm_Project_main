@@ -176,20 +176,20 @@ li a:hover:not(.active) {
     height: 300px;
     align-items: center;
     justify-content: space-between;
-  }
+}
   
-  .flex-footer > div {
-    font-family: 'Gabarito', sans-serif;
-    color: white;
-    font-size: 2.2rem;
-  } 
-  
-  .credit {
-    display: flex;
-    font-family: 'Gabarito', sans-serif;
-    color: white;
-    height: 30px;
-    background-color: rgb(62, 12, 109);
-    justify-content: center;
-    align-items: center;
-  }
+.flex-footer > div {
+font-family: 'Gabarito', sans-serif;
+color: white;
+font-size: 2.2rem;
+} 
+
+.credit {
+display: flex;
+font-family: 'Gabarito', sans-serif;
+color: white;
+height: 30px;
+background-color: rgb(62, 12, 109);
+justify-content: center;
+align-items: center;
+}

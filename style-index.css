@@ -149,7 +149,7 @@ h2 {
     font-size: 1.3rem;
 }
 
-/*Q3. How to scale the .label div up to the whole area left in .col-1 div substracted 
+/*Q3. How to scale the .label div up to the whole area left in .col-1 div subtracted 
 the image area?
 Prob Descrip:
 I actually wanna change the background color from white to blueviolet of where the label text
@@ -203,6 +203,7 @@ the 50px gap also applies to their gap between each 'row', while I don't want it
     display: flex;
     gap: 30px;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .image {
